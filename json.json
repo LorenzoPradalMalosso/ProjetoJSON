@@ -1,59 +1,56 @@
 {
-    "campeonatos": [
-        {
-            "id": 1,
-            "nome": "Brasileirão",
-            "país": "Basil"
-        },
-        {
-            "id": 2,
-            "nome": "Campeonato Saudita",
-            "país": "Arábia Saudita"
-        }
-    ],
-    
-    "times": [
-        {
-            "id": 1,
-            "nome": "Corinthians",
-            "fundacao": 1910,
-            "campeonato_id": 1,
-            "estadio": "Neo Química Arena"
-        },
-        {
-            "id": 2,
-            "nome": "Al Nassr",
-            "fundacao": 1955,
-            "campeonato_id": 2,
-            "estadio": "Al-Awwal Park"
-        }
-    ],
-
-    "jogadores": [
-        {
-            "id": 1,
-            "nome": "Cristiano Ronaldo",
-            "idade": 39,
-            "numeroCamisa": 7,
-            "time_id": 2
-        },
-        {
-            "id": 2,
-            "nome": "Yuri Alberto",
-            "idade": 25,
-            "numeroCamisa": 9,
-            "time_id": 1
-        }
-    ],
-
-    "partidas": [
-        {
-            "id": 1,
-            "time1_id": 1,
-            "time2_id": 2,
-            "data": "02/04/2026",
-            "gols_time1": 3,
-            "gols_time2": 1  
-        }
-    ]
+  "campeonatos": [
+    {
+      "id": 1,
+      "nome": "Brasileirão",
+      "pais": "Basil"
+    },
+    {
+      "id": 2,
+      "nome": "Campeonato Saudita",
+      "pais": "Arábia Saudita"
+    }
+  ],
+  "times": [
+    {
+      "id": 1,
+      "nome": "Corinthians",
+      "fundacao": 1910,
+      "campeonato_id": 1,
+      "estadio": "Neo Química Arena"
+    },
+    {
+      "id": 2,
+      "nome": "Al Nassr",
+      "fundacao": 1955,
+      "campeonato_id": 2,
+      "estadio": "Al-Awwal Park"
+    }
+  ],
+  "jogadores": [
+    {
+      "id": 1,
+      "nome": "Cristiano Ronaldo",
+      "idade": 39,
+      "numeroCamisa": 7,
+      "time_id": 2
+    },
+    {
+      "id": 2,
+      "nome": "Yuri Alberto",
+      "idade": 25,
+      "numeroCamisa": 9,
+      "time_id": 1
+    }
+  ],
+  "partidas": [
+    {
+      "id": 1,
+      "time1_id": 1,
+      "time2_id": 2,
+      "data": "07/04/2026",
+      "gols_time1": 3,
+      "gols_time2": 1
+    }
+  ]
 }
